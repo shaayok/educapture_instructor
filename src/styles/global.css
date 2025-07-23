@@ -1,0 +1,38 @@
+@import './variable.css';
+  
+  * {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: var(--font-base) !important;
+  }
+  
+  html, body, #root {
+    height: 100%;
+    font-family: var(--font-base) !important;
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+  font-family: 'Nexa Bold', 'Nexa Light', Arial, sans-serif;
+  color: var(--primary);
+  font-weight: 700;
+  letter-spacing: 0.01em;
+  margin-bottom: 0.5em;
+}
+  
+  body {
+    font-family: var(--font-base) !important;
+    background-color: var(--gray-light);
+    color: var(--text-dark);
+  }
+
+/* .primary, .btn-primary, .accent {
+  color: var(--text-light);
+  background: var(--primary);
+  border-color: var(--primary);
+}
+
+button:hover, .btn-primary:hover {
+  background: var(--brand-dark);
+  color: var(--text-light);
+} */
